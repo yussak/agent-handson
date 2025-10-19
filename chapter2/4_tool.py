@@ -111,5 +111,5 @@ if tool_use:
     )
     output = final_response["output"]["message"]["content"][0]["text"]
     print("【推論２回目】")
-    print("ユーザーの入力： （つーる実行結果）")
+    print("ユーザーの入力： （ツール実行結果）")
     print("LLMの回答：", output)
